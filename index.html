@@ -22,14 +22,24 @@
 <body>
 
     <header>
-        <div class="text-dark bg-light d-flex justify-content-around">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga quis eveniet sequi ratione. Ipsum voluptas ducimus commodi neque officiis quisquam modi laboriosam odit earum, eaque error assumenda. Molestias, provident!</div>
+        <div class="text-dark text-align-center txt-small bg-light d-flex justify-content-around">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga quis eveniet sequi ratione. Ipsum voluptas ducimus commodi neque officiis quisquam modi laboriosam odit earum, eaque error assumenda. Molestias, provident!</div>
         <div class="text-dark p-3 d-flex justify-content-around">
-            <img class="wsvg" src="./img/cuidateplus.svg" alt="" srcset="">
-            <img class="wsvg" src="./img/trending.svg" alt="" srcset="">
+
+              <div>
+                <img class="wsvg" src="./img/cuidateplus.png" alt="" srcset="">
+                <a class="ml-1">CuidatePlus</a>
+              </div>
+
+              <div>
+                <img class="wsvg" src="./img/trending.png" alt="" srcset="">
+                <a class="ml-1">Lo+trending</a>
+              </div>
+
             <img class="mclaro" src="./img/mclaro_completo.png" alt="" srcset="">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <button class="btn btn-light dropdown-toggle btn-outline-dark" type="button" data-toggle="dropdown" aria-expanded="false">
+                <img class="w-flags mb-1" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
+                MX
               </button>
               <div class="dropdown-menu">
                   <form class="px-4 py-3">
@@ -37,10 +47,13 @@
                   <div class="dropdown-divider"></div>
 
                   <button class="dropdown-item" type="button">
-                      <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
-                      <a>MX (México)</a>
+                    <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
+                    <a>MX (México)</a>
                   </button>
-                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">
+                    <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
+                    <a>MX (México)</a>
+                  </button>
                   <button class="dropdown-item" type="button">Action</button>
                   <button class="dropdown-item" type="button">Action</button>
                   <button class="dropdown-item" type="button">Action</button>
@@ -61,27 +74,24 @@
                   <a class="dropdown-item" href="#">New around here? Sign up</a>
                   <a class="dropdown-item" href="#">Forgot password?</a>
                 </div>
+                <button type="button" class="btn btn-danger">Suscríbete</button>
+                <button type="button" class="btn btn-ligth btn-outline-dark">Iniciar sesión</button>
             </div>
         </div>
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light mred">
-        <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
+
+            <!-- FÚTBOL -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                Dropdown
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Fútbol
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Action</a>
@@ -90,16 +100,72 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+
+            <!-- FÚTBOL INTERNACIONAL -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Fútbol Internacional
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
+
+            <!-- MOTOR -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Motor
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <!-- OTROS DEPORTES -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Otros deportes
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
+            <!-- MAS+ -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Más+
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <div class="input-group">
+              <input class="form-control" type="search" placeholder="Buscar en marca.com" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-light btn-outline-light my-2 my-sm-0" type="submit">🔍</button>
+              </div>
+            </div>
           </form>
         </div>
       </nav>
+
+      <div class="text-dark py-3 text-align-center txt-small bg-light d-flex justify-content-around">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga quis eveniet sequi ratione. Ipsum voluptas ducimus commodi neque officiis quisquam modi laboriosam odit earum, eaque error assumenda. Molestias, provident!</div>
 
 
 
