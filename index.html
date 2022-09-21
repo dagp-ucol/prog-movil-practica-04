@@ -225,7 +225,7 @@
 
 
           <form class="form-inline my-2 my-lg-0">
-            <div class="input-group">
+            <div class="input-group mr-4">
               <input class="form-control" type="search" placeholder="Buscar en marca.com" aria-label="Search">
               <div class="input-group-append">
                 <button class="btn btn-light btn-outline-light my-2 my-sm-0" type="submit">🔍</button>
@@ -233,10 +233,98 @@
             </div>
           </form>
 
-          <form class="mx-2" action="">
-            <button type="button" class="btn btn-light btn-outline-dark mx-2">Suscríbete</button>
+          <div class="dropdown mx-2">
+            <button class="btn btn-light dropdown-toggle btn-outline-dark" type="button" data-toggle="dropdown" aria-expanded="false">
+              <img class="w-flags mb-1" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
+              MX
+            </button>
+            <div class="dropdown-menu">
+                <form class="px-0 py-0">
+                <label for="exampleDropdownFormEmail1" class="la px-3">EDICIONES:</label>
+                <div class="dropdown-divider"></div>
+
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://cdn-icons-png.flaticon.com/512/555/555635.png" alt="" srcset="">
+                  <a>ES (España)</a>
+                </button>
+                <hr class="my-0">
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://images.vexels.com/media/users/3/157964/isolated/preview/20b45a443b5af92b3939d9e052130e3c-icono-brillante-de-la-tierra.png" alt="" srcset="">
+                  <a>EN (English)</a>
+                </button>
+                <hr class="my-0">
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="" srcset="">
+                  <a>MX (México)</a>
+                </button>
+                <hr class="my-0">
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://www.banderasvdk.com/blog/wp-content/uploads/Bandera-Colombia-Blog.jpg" alt="" srcset="">
+                  <a>CO (Colombia)</a>
+                </button>
+                <hr class="my-0">
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png" alt="" srcset="">
+                  <a>AR (Argentina)</a>
+                </button>
+                <hr class="my-0">
+                <button class="dropdown-item" type="button">
+                  <img class="w-flags" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png" alt="" srcset="">
+                  <a>US (USA)</a>
+                </button>
+                <hr class="my-0">
+
+                  <div class="form-group">
+                    <div class="form-check">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Escoge tu edición de Marca.com favorita
+                      </label>
+                      <div class="s py-2">
+                        <img class="icons" src="https://static.vecteezy.com/system/resources/previews/009/341/525/non_2x/information-sign-icon-design-free-png.png" alt="">
+                        Siempre que entres en Marca.com se cargará esta edición
+                      </div>
+                      <div class="radio px-4 col-sm-6 ">
+                        <div class="r1">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> ES (España)
+                        </div>
+                        <div class="r2">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> EN (English)
+                        </div>
+                        <div class="r3">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> MX (México)
+                        </div>
+
+                      </div>
+                      <div class="radio2 px-4 col-sm-6 ">
+                        <div class="r4">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> CO (Colombia)
+                        </div>
+                        <div class="r5">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> AR (Argentina)
+                        </div>
+                        <div class="r6">
+                          <input class="form-check-input position-static" type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="..."> US (USA)
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="button px-4">
+                    <button type="submit" class="btn btn-primary">Continuar</button>
+                  </div>
+
+                </form>
+              </div>
+              <button type="button" class="btn btn-light btn-outline-dark mx-2">Suscríbete</button>
+              <button type="button" class="btn btn-light btn-outline-dark mr-2">Iniciar sesión</button>
+          </div>
+
+
+          <!-- <form class="mx-2" action="">
+            <button type="button" class="btn btn-light btn-outline-dark mr-2">Suscríbete</button>
             <button type="button" class="btn btn-light btn-outline-dark mx-2">Iniciar sesión</button>
-          </form>
+          </form> -->
 
         </div>
       </nav>
