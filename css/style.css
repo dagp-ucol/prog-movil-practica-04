@@ -21,6 +21,10 @@
     max-width: 15px;
 }
 
+.img{
+    max-width: 65px;
+}
+
 .txt-small {
     font-size: 0.8em;
 }
