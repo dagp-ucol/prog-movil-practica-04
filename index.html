@@ -42,7 +42,7 @@
     <nav class="navbar navbar-expand-lg navbar-light mred">
 
       <a class="navbar-brand" href="#">
-        <img src="./img/claro_blanco.png" width="150" height="25" class="d-inline-block align-top" alt="">
+        <!-- <img src="./img/claro_blanco.png" width="150" height="25" class="d-inline-block align-top" alt=""> -->
       </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,8 +58,12 @@
                 Fútbol
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Liga MX</a>
+                <a class="dropdown-item" href="#">Liga de expansión MX</a>
+                <a class="dropdown-item" href="#">Copa MX</a>
+                <a class="dropdown-item" href="#">Concachampions</a>
+                <a class="dropdown-item" href="#">Mexicanos por el mundo</a>
+                <a class="dropdown-item" href="#">Fútbol femenil</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
@@ -71,8 +75,13 @@
                 Fútbol Internacional
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Argentina</a>
+                <a class="dropdown-item" href="#">Colombia</a>
+                <a class="dropdown-item" href="#">Chile</a>
+                <a class="dropdown-item" href="#">Venezuela</a>
+                <a class="dropdown-item" href="#">Estados Unidos MLS</a>
+                <a class="dropdown-item" href="#">Conmebol Libertadores</a>
+                <a class="dropdown-item" href="#">Copa América</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
@@ -84,8 +93,9 @@
                 Motor
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">F1</a>
+                <a class="dropdown-item" href="#">Nascar</a>
+                <a class="dropdown-item" href="#">Más motor</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
@@ -97,24 +107,21 @@
                 Otros deportes
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Básquetbol</a>
+                <a class="dropdown-item" href="#">Béisbol</a>
+                <a class="dropdown-item" href="#">Boxeo</a>
+                <a class="dropdown-item" href="#">Ténis</a>
+                <a class="dropdown-item" href="#">Golf</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
 
             <!-- MAS+ -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" role="button" aria-expanded="false">
                 Más+
               </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
             </li>
           </ul>
 
@@ -259,6 +266,7 @@
 
       <div class="container my-5">
         <div class="container">
+          
           <div class="col p-1">
             <div class="card">
               <div class="card-body">
@@ -267,6 +275,67 @@
               
             </div>
             <img class="img p-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/APP_Caliente_MX.svg/800px-APP_Caliente_MX.svg.png" alt="">
+          </div>
+          
+          <div class="btn-group dropright my-2">
+            <button type="button" class="btn dropdown-toggle btn-outline-dark " data-toggle="dropdown" aria-expanded="false">
+              Resultados:
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Todos</a>
+              <a class="dropdown-item" href="#">Fútbol</a>
+              <a class="dropdown-item" href="#">Liga de expansión</a>
+              <a class="dropdown-item" href="#">UEFA Nations League</a>
+              <a class="dropdown-item" href="#">Amistosos selecciones</a>
+              <a class="dropdown-item" href="#">Liga Argentina</a>
+              <a class="dropdown-item" href="#">Motor</a>
+              <a class="dropdown-item" href="#">Fórmula 1</a>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Liga de expansión
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    UEFA Nations League
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the second accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Amistosos selecciones
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row justify-content-center align-items-center g-2 p-1 my-1">
             <div class="col my-1">
